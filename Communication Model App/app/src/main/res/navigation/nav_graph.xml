@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_api">
+
+    <fragment
+        android:id="@+id/navigation_api"
+        android:name="com.sister.sampleapp.ui.RequestResponseFragment"
+        android:label="fragment_reqest_response"
+        tools:layout="@layout/fragment_request_response" />
+    <fragment
+        android:id="@+id/navigation_subscribe"
+        android:name="com.sister.sampleapp.ui.PublishSubscribeFragment"
+        android:label="fragment_publish_subscribe"
+        tools:layout="@layout/fragment_publish_subscribe" />
+    <fragment
+        android:id="@+id/navigation_message"
+        android:name="com.sister.sampleapp.ui.MessagePassingFragment"
+        android:label="fragment_message_passing"
+        tools:layout="@layout/fragment_message_passing">
+        <action
+            android:id="@+id/action_navigation_message_to_messageRecieverFragment"
+            app:destination="@id/messageRecieverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageRecieverFragment"
+        android:name="com.sister.sampleapp.ui.MessageRecieverFragment"
+        android:label="fragment_message_reciever"
+        tools:layout="@layout/fragment_message_reciever">
+        <argument
+            android:name="message"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

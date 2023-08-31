@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="api_icon">Sample 1</string>
+    <string name="subscribe_icon">Sample 2</string>
+    <string name="get_quote">Get Quote</string>
+    <string name="the_quote">The Quote</string>
+    <string name="author">Author</string>
+    <string name="check_permission_sms">Check SMS Permission</string>
+    <string name="download">Download</string>
+
+    <string name="coming_from">Coming From</string>
+    <string name="this_play">Login Sir, butuh midlaner keras</string>
+    <string name="close">Tutup</string>
+    <string name="incoming_message">Incoming Message</string>
+    <string name="from">from : %s</string>
+
+    <string name="sample_3">Sample 3</string>
+    <string name="pindah_fragment">Pindah Fragment</string>
+</resources>

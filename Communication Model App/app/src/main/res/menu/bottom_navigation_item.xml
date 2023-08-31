@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_api"
+        android:icon="@drawable/baseline_api"
+        android:title="@string/api_icon" />
+    <item
+        android:id="@+id/navigation_subscribe"
+        android:icon="@drawable/baseline_subscriptions"
+        android:title="@string/subscribe_icon" />
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/baseline_forward_to_inbox"
+        android:title="@string/sample_3" />
+</menu>
